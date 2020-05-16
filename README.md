@@ -1,7 +1,8 @@
 # keypad-phrase
 Produce a memorable word that corresponds to a given numeric security code.
 
-## Usage
+
+### Example A
 
 `python word_selector.py --code 222377`
 
@@ -9,6 +10,10 @@ Produce a memorable word that corresponds to a given numeric security code.
 ```
 ['abbess', 'access']
 ```
+
+---
+
+### Example B
 
 `python word_selector.py --code 46281227`
 
