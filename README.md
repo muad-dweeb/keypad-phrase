@@ -22,3 +22,7 @@ Disregarding unmappable digit '1' at index 4
 ```
 
 User maybe selects "goat-1-car" as their code word.
+
+# Warning
+
+Probability of finding matching words is entirely-dependent upon the length of your input word list, which is `/usr/share/dict/words` by default (standard Unix file). You are not guaranteed a match.
