@@ -1,6 +1,7 @@
 # keypad-phrase
 Produce a memorable word that corresponds to a given numeric security code.
 
+---
 
 ### Example A
 
