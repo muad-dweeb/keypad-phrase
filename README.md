@@ -1,11 +1,11 @@
 # keypad-phrase
-Produce a memorable word that corresponds to a given numeric security code.
+Produce a memorable word that corresponds to a given numeric security code (or vice-versa).
 
 ---
 
 ### Example A
 
-`python word_selector.py --code 222377`
+`python translator.py --input 222377`
 
 **Result:** 
 ```
@@ -16,7 +16,7 @@ Produce a memorable word that corresponds to a given numeric security code.
 
 ### Example B
 
-`python word_selector.py --code 46281227`
+`python translator.py --input 46281227`
 
 User maybe selects "access" as their code word.
 
@@ -30,6 +30,18 @@ Disregarding unmappable digit '1' at index 4
 User maybe selects "goat-1-car" as their code word.
 
 ---
+
+### Example C
+
+`python translator.py --input boto`
+
+Result: 
+```
+Input sequence: boto
+
+Your code is: 2686
+```
+
 
 # Warning
 
