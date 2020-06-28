@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
         if delimiter_found:
             for digit, index in delimiter_indexes.items():
-                print('Disregarding unmappable digit \'{}\' at index {}'.format(digit, index))
+                print('Disregarding un-mappable digit \'{}\' at index {}'.format(digit, index))
 
         for segment in code_segments:
             matches = get_matching_words(segment)
